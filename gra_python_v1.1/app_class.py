@@ -146,10 +146,10 @@ class App:
             WIDTH // 2, HEIGHT // 2 + 50], 26, RED, 'impact', centered=True)
         self.draw_text('Tryb 1 gracza', self.screen, [
             WIDTH // 2, HEIGHT // 2 + 150], 26, (44, 167, 198), 'impact', centered=True)
-        self.draw_text('Wykonane przez:', self.screen, [WIDTH // 2, HEIGHT // 2 + 100], START_TEXT_SIZE, (255, 250, 205),
-                       START_FONT, centered=True)
-        self.draw_text('Łukasik Łukasz', self.screen, [WIDTH // 2, HEIGHT // 2 + 160], START_TEXT_SIZE, (255, 250, 205),
-                      START_FONT, centered=True)
+#        self.draw_text('Wykonane przez:', self.screen, [WIDTH // 2, HEIGHT // 2 + 100], START_TEXT_SIZE, (255, 250, 205),
+#                       START_FONT, centered=True)
+#        self.draw_text('Łukasik Łukasz', self.screen, [WIDTH // 2, HEIGHT // 2 + 160], START_TEXT_SIZE, (255, 250, 205),
+#                      START_FONT, centered=True)
         pygame.display.update()
 
     ########################### Gra funkcje ##################################
